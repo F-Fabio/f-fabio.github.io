@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CV</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #4f667e;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 125px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #4f667e ;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>CV</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="CV.html">CV</a></li>
+      <li><a href="Research.html">Research</a></li>
+      <li><a href="Code.html">Code</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+   
+    
+    <h2>Vitae</h2>
+<p><a href="https://github.com/F-Fabio/Vitae/blob/master/FabioFranco_CV.pdf">Full resume here</a></p>
+   </section> 
+    
+    <footer>
+  <p> <img src="Email_image.jpg" alt="Email_image" width="25" height="25"> <span style="font-weight:bold">Contact: </span> fabio.franco3137@gmail.com</p>
+</footer>
+  
+    
+</body>
+  
+</html>
